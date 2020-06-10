@@ -20,6 +20,10 @@ body{
     height: 70vh;
 }
 
+#titulo{
+    font-weight: bold;
+}
+
 #footer{
     background: #304998;
     color: white;
