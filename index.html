@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontello.css">
 
     <title>Workingplace</title>
   </head>
@@ -18,27 +19,27 @@
     <nav id="header" class="navbar navbar-expand-lg navbar-light sticky-top">
         <a class="navbar-brand text-white" href="#">Working Place</a>
 
-        <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navigation navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
 
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#">Servicios <span class="sr-only">(current)</span></a>
+            <li class="nav-item itemNav">
+                <a id="info" class="nav-link text-white" href="#">Servicios <span class="sr-only">(current)</span></a>
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#">¿Quiénes somos?</a>
+            <li class="nav-item itemNav">
+                <a id="info" class="nav-link text-white" href="#">¿Quiénes somos?</a>
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#">Preguntas frecuentes</a>
+            <li class="nav-item itemNav">
+                <a id="info" class="nav-link text-white" href="#">Preguntas frecuentes</a>
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contáctenos</a>
+            <li class="nav-item itemNav">
+                <a id="info" class="nav-link text-white" href="#">Contáctenos</a>
             </li>
         </div>
     </nav>
@@ -56,11 +57,81 @@
     </section>
     <!-- Fin banner -->
 
+
+    <!-- Footer -->
+    <div id="footer">
+        <div class="container pt-3 text-center text-md-left">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <!--<h3 data-toggle="collapse" data-target="#coll" aria-expanded="false" aria-controls="collapseEx">Contáctenos</h3>-->
+                    <h3>Contáctenos</h3>
+                        <!--<div class="collapse" id="coll">-->
+                        <div id="contenido" class="d-none d-md-block">
+                            <br>
+                            <p>+505 8888-8888</p>
+                            <p>workingplace@yahoo.com</p>
+                            <p>Ubicación: Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eos aliquam mollitia laborum.</p>
+                        </div>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>Información</h3>
+                    <div id="contenido" class="d-none d-md-block">
+                        <br>
+                        <a id="info" href="#">¿Quiénes somos?</a>
+                        <hr>
+                        <a id="info" href="#">Politicas de privacidad</a>
+                        <hr>
+                        <a id="info" href="#">Términos y condiciones</a>
+                    </div>
+                </div>
+
+                <div class="col col-md-4">
+                    <h3>Nuestras redes</h3>
+                    <div id="contenido" class="col d-none d-md-block">
+                        <div class="col col-md-1 pl-0 pt-3">
+                            <a id="redes" class="icon-facebook" href=""></a>
+                        </div>
+
+                        <div class="col col-md-1 pl-0 pt-3">
+                            <a id="redes" class="icon-instagram" href=""></a>
+                        </div>
+
+                        <div class="col col-md-1 pl-0 pt-3">
+                            <a id="redes" class="icon-twitter" href=""></a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+
+            <div id="reservado" class="row">
+                <div class="col-12">
+                    <hr>
+                    <p>Working Place. &#169 Todos los derechos reservados. 2020</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin del footer -->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/JS.js"></script>
+
+    <!--<script>
+    $(document).ready(function() { 
+        $('.itemNav').click(function(){
+            var $target = $('.navbar-collapse');
+            if($target.hasClass('in')){
+                $target.removeClass('in').height(0).css('overflow','hidden');                           
+            }
+        });			
+    });
+    </script>-->
+
   </body>
 </html>
