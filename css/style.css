@@ -15,13 +15,40 @@ body{
     color: rgb(180, 180, 180);
 }
 
+#titulo{
+    font-weight: bold;
+}
+
+#servicios img{
+    padding-top: 10px;
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+#servicios #relleno{
+    background: rgb(241, 255, 255);
+    border: none;
+    text-align: justify;
+}
+
+#servicios #relleno h4{
+    font-weight: bold;
+    text-align: center;
+}
+
+/*#servicios #relleno a{
+    text-decoration: none;
+    color: black;
+}
+
+#servicios #relleno:hover{
+    cursor: pointer;
+}*/
+
 #banner img{
     width: 100%;
     height: 70vh;
-}
-
-#titulo{
-    font-weight: bold;
 }
 
 #footer{
