@@ -5,10 +5,11 @@ body{
     background-attachment: fixed;
 }
 
-body:before{
+/* Fondo degradado con transparencia*/
+/*body:before{
     content: "";
     width: 100%;
-    height: 4000px;
+    height: 300vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -18,7 +19,7 @@ body:before{
     background-attachment: fixed;
     opacity: 0.5;
     z-index: -1;
-}
+}*/
 
 #header{
     background: #304998;
@@ -43,8 +44,8 @@ body:before{
 }
 
 #servicios img{
-    padding-top: 10px;
-    width: 60%;
+    padding-top: 20px;
+    width: 50%;
     display: block;
     margin: auto;
 }
@@ -71,7 +72,21 @@ body:before{
 
 #banner img{
     width: 100%;
-    height: 70vh;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.banner_img{
+    position: relative;
+    display: inline-block;
+}
+
+.texto_banner{
+    position: absolute;
+    top: 45%;
+    color: white;
 }
 
 #footer{
