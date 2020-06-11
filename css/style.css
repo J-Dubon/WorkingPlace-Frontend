@@ -34,6 +34,7 @@ body{
     color: rgb(180, 180, 180);
 }
 
+/*========= ENCABEZADO SECCIONES =====*/
 #subtitulo{
     color: white;
 }
@@ -43,6 +44,7 @@ body{
     color: white;
 }
 
+/*================= SERVICIOS ===========*/
 #servicios img{
     padding-top: 20px;
     width: 50%;
@@ -70,6 +72,7 @@ body{
     cursor: pointer;
 }*/
 
+/*==================== BANNER ================*/
 #banner img{
     width: 100%;
     height: 50vh;
@@ -89,6 +92,43 @@ body{
     color: white;
 }
 
+/*================= JUEGOS =============*/
+.juegos__columna{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.juegos__descripcion{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    width: 50%;
+    height: 100%;
+
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+.juegos__titulo{
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.juegos__img{
+    width: 100%;
+}
+
+.juegos__txt{
+    font-size: 15px;
+}
+
+/*==================== FOOTER ==============*/
 #footer{
     background: #304998;
     color: white;
