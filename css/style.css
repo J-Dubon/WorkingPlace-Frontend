@@ -1,6 +1,6 @@
 body{
     font-family: 'Raleway', sans-serif;
-    background-image: url('../images/bg.jpg');
+    background-image: url('../images/bgt.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -44,6 +44,9 @@ body{
     color: white;
 }
 
+.main.carousel{
+    height: 100vh;
+}
 /*================= SERVICIOS ===========*/
 #servicios img{
     padding-top: 20px;
@@ -103,21 +106,21 @@ body{
     top: 0;
     left: 0;
     color: #fff;
-    background: rgba(0,0,0,0.5);
-    width: 50%;
+    background: rgba(0,0,0,0.7);
+    width: 60%;
     height: 100%;
 
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    text-align: justify;
     justify-content: center;
     align-items: center;
 }
 
 .juegos__titulo{
-    font-size: 40px;
+    font-size: 30px;
     margin: 5px 0;
+    text-align: left;
 }
 
 .juegos__img{
@@ -125,7 +128,31 @@ body{
 }
 
 .juegos__txt{
-    font-size: 15px;
+    text-align: justify;
+    font-size: 12px;
+}
+
+.btn-juegos{
+    background: blue;
+    color: white;
+}
+
+.btn-juegos:hover{
+    background-color: rgb(76, 76, 250);
+}
+
+@media(min-width:480px){
+    
+}
+
+@media(min-width:990px){
+    .juegos__titulo{
+        font-size: 40px;
+    }
+
+    .juegos__txt{
+        font-size: 15px;
+    }
 }
 
 /*==================== FOOTER ==============*/
