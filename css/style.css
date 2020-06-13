@@ -104,7 +104,7 @@ body{
 .juegos__descripcion{
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     color: #fff;
     background: rgba(0,0,0,0.7);
     width: 60%;
@@ -162,6 +162,11 @@ body{
     .juegos__txt{
         font-size: 15px;
     }
+}
+
+/*======== BOLETIN INFORMATIVO =============*/
+.boletin{
+    background: white;
 }
 
 /*==================== FOOTER ==============*/
