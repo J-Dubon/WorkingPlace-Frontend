@@ -36,12 +36,12 @@ body{
 
 /*========= ENCABEZADO SECCIONES =====*/
 #subtitulo{
-    color: white;
+    color: black;
 }
 
 #titulo{
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 .main.carousel{
@@ -50,7 +50,7 @@ body{
 /*================= SERVICIOS ===========*/
 #servicios img{
     padding-top: 20px;
-    width: 50%;
+    width: 45%;
     display: block;
     margin: auto;
 }
@@ -139,6 +139,15 @@ body{
 
 .btn-juegos:hover{
     background-color: rgb(76, 76, 250);
+}
+
+.bg-btn-juegos{
+    background: rgb(2, 89, 189);
+    color: white;
+}
+
+.bg-btn-juegos:hover{
+    background: rgb(38, 113, 199);
 }
 
 @media(min-width:480px){

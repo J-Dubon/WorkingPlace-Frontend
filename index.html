@@ -11,6 +11,8 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/fontello.css">
         <link rel="stylesheet" href="css/animate.css">
+        <link href="css/aos.css" rel="stylesheet">
+
 
         <title>Workingplace</title>
     </head>
@@ -120,7 +122,7 @@
 
             <div class="row">
 
-                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1">
+                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1" data-aos="fade-down-right">
                     <div id="relleno" class="card">
                         <img id="color" src="icons/joystick.svg" class="card-img-top" alt="Gaming">
                         <div class="card-body">
@@ -130,7 +132,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1">
+                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1" data-aos="fade-down">
                     <div id="relleno" class="card">
                         <img src="icons/internet.svg" class="card-img-top" alt="Gaming">
                         <div class="card-body">
@@ -140,7 +142,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1">
+                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1" data-aos="fade-down-left">
                     <div id="relleno" class="card">
                         <img id="color" src="icons/work.svg" class="card-img-top" alt="Gaming">
                         <div class="card-body">
@@ -149,8 +151,10 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1" data-aos="fade-down-right">
                     <div id="relleno" class="card">
                         <img id="color" src="icons/printer.svg" class="card-img-top" alt="Gaming">
                         <div class="card-body">
@@ -160,7 +164,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1">
+                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1" data-aos="fade-down">
                     <div id="relleno" class="card">
                         <img id="color" src="icons/fax.svg" class="card-img-top" alt="Gaming">
                         <div class="card-body">
@@ -170,7 +174,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1">
+                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1" data-aos="fade-down-left">
                     <div id="relleno" class="card">
                         <img id="color" src="icons/food.svg" class="card-img-top" alt="Gaming">
                         <div class="card-body">
@@ -217,7 +221,7 @@
 
             <div class="row">
 
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6" data-aos="flip-left">
                     <div class="juegos__columna">
                         <img src="images/juegos-1.jpg" alt="" class="juegos__img">
                         <div class="juegos__descripcion">
@@ -227,7 +231,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6" data-aos="flip-right">
                     <div class="juegos__columna">
                         <img src="images/juegos-2.jpg" alt="" class="juegos__img">
                         <div class="juegos__descripcion">
@@ -236,8 +240,10 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-12 col-md-6">
+            <div class="row">
+                <div class="col-12 col-md-6" data-aos="flip-left">
                     <div class="juegos__columna">
                         <img src="images/juegos-3.jpg" alt="" class="juegos__img">
                         <div class="juegos__descripcion">
@@ -247,7 +253,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6" data-aos="flip-right">
                     <div class="juegos__columna">
                         <img src="images/juegos-4.jpg" alt="" class="juegos__img">
                         <div class="juegos__descripcion">
@@ -257,6 +263,14 @@
                     </div>
                 </div>
 
+            </div>
+
+            <div class="row">
+                <div class="container">
+                    <div class="col-8 offset-2 pb-3">
+                        <button type="button" class="btn bg-btn-juegos btn-block">Ver más</button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -328,7 +342,13 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/JS.js"></script>
-
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            ease: 'ease-in-out-sine'
+        });
+    </script>
     <!--<script>
     $(document).ready(function() { 
         $('.itemNav').click(function(){
