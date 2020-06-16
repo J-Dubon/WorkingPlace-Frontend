@@ -1,4 +1,4 @@
-body{
+#fondo{
     font-family: 'Raleway', sans-serif;
     background-image: url('../images/bgt.png');
     background-repeat: no-repeat;
@@ -204,10 +204,6 @@ body{
     text-align: justify;
 }
 
-#footer .contactenos:hover{
-    cursor: pointer;
-}
-
 #footer hr{
     background: white;
 }
@@ -244,4 +240,11 @@ body{
 #reservado{
     text-align: center;
     font-size: 12px;
+}
+
+/*================ PAGINA PREGUNTAS FRECUENTES =================*/
+#separador{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
