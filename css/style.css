@@ -46,7 +46,14 @@ body{
 
 .main.carousel{
     height: 100vh;
+    margin-bottom: 0;
 }
+
+/*=============== CAROUSEL =============*/
+.carousel-inner img{
+    height: 95vh;
+}
+
 /*================= SERVICIOS ===========*/
 #servicios img{
     padding-top: 20px;
@@ -117,6 +124,22 @@ body{
     align-items: center;
 }
 
+.juegos__descripcion_izquierda{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background: rgba(0,0,0,0.7);
+    width: 60%;
+    height: 100%;
+
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .juegos__titulo{
     font-size: 30px;
     margin: 5px 0;
@@ -169,11 +192,20 @@ body{
     background: white;
 }
 
+/*.boletin button{
+    background-color: rgb(168, 0, 22);
+    color: white;
+}*/
+
 /*==================== FOOTER ==============*/
 #footer{
     background: #304998;
     color: white;
     text-align: justify;
+}
+
+#footer .contactenos:hover{
+    cursor: pointer;
 }
 
 #footer hr{
