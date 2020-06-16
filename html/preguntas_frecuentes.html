@@ -11,39 +11,40 @@
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/fontello.css">
         <link rel="stylesheet" href="../css/animate.css">
-        <link href="../css/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/aos.css">
 
 
-        <title>Workingplace</title>
+    <title>Workingplace</title>
     </head>
-    <body>
+
+    <body id="" data-spy="scroll" data-target="#navbarPagina" data-offset="57">
 
     <!-- Navbar header -->
-    <nav id="header" class="navbar navbar-expand-lg navbar-light sticky-top">
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container">
-            <a class="navbar-brand text-white animate__animated animate__swing animate__delay-1s" href="../index.html">Working Place</a>
+            <a class="navbar-brand text-white animate__animated animate__swing animate__delay-1s" href="#">Working Place</a>
 
-            <button class="navigation navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navigation navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPagina" aria-controls="navbarPagina" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
           
-            <div class="collapse navbar-collapse animate__animated animate__backInLeft animate__delay-0-5s" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse animate__animated animate__backInLeft animate__delay-0-5s" id="navbarPagina">
                 <ul class="navbar-nav ml-auto">
 
                 <li class="nav-item itemNav">
-                    <a id="info" class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+                    <a id="info" class="nav-link" href="#main">Inicio <span class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item itemNav">
-                    <a id="info" class="nav-link" href="#">Servicios <span class="sr-only">(current)</span></a>
+                    <a id="info" class="nav-link" href="#servicios">Servicios <span class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item itemNav">
-                    <a id="info" class="nav-link" href="#">¿Quiénes somos?</a>
+                    <a id="info" class="nav-link" href="#banner">¿Quiénes somos?</a>
                 </li>
 
                 <li class="nav-item itemNav">
-                    <a id="info" class="nav-link" href="#">Juegos</a>
+                    <a id="info" class="nav-link" href="#juegos">Juegos</a>
                 </li>
 
                 <li class="nav-item itemNav">
@@ -277,7 +278,7 @@
                         <br>
                         <a id="info" href="#">¿Quiénes somos?</a>
                         <br><br class="d-md-none"><hr class="d-none d-md-block">
-                        <a id="info" href="#">Politicas de privacidad</a>
+                        <a id="info" href="html/preguntas_frecuentes.html">Preguntas frecuentes</a>
                         <br><br class="d-md-none"><hr class="d-none d-md-block">
                         <a id="info" href="#">Términos y condiciones</a>
                         <br><br>
@@ -320,10 +321,17 @@
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/JS.js"></script>
     <script src="../js/aos.js"></script>
+    <script src="../js/smooth-scroll.min.js"></script>
+
     <script>
         AOS.init({
             duration: 800,
             ease: 'ease-in-out-sine'
+        });
+
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 900,
+            speedAsDuration: true
         });
     </script>
     <!--<script>
