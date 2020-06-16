@@ -98,7 +98,13 @@
 
 .texto_banner{
     position: absolute;
-    top: 45%;
+    top: 35%;
+    color: white;
+}
+
+.texto_banner_des{
+    position: absolute;
+    top: 48%;
     color: white;
 }
 
