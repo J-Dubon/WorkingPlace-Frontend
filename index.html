@@ -16,30 +16,34 @@
 
         <title>Workingplace</title>
     </head>
-    <body id="fondo">
+    <body id="fondo" data-spy="scroll" data-target="#navbarPagina" data-offset="57">
 
     <!-- Navbar header -->
-    <nav id="header" class="navbar navbar-expand-lg navbar-light sticky-top">
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container">
             <a class="navbar-brand text-white animate__animated animate__swing animate__delay-1s" href="#">Working Place</a>
 
-            <button class="navigation navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navigation navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarPagina" aria-controls="navbarPagina" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
           
-            <div class="collapse navbar-collapse animate__animated animate__backInLeft animate__delay-0-5s" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse animate__animated animate__backInLeft animate__delay-0-5s" id="navbarPagina">
                 <ul class="navbar-nav ml-auto">
 
                 <li class="nav-item itemNav">
-                    <a id="info" class="nav-link" href="#">Servicios <span class="sr-only">(current)</span></a>
+                    <a id="info" class="nav-link" href="#main">Inicio <span class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item itemNav">
-                    <a id="info" class="nav-link" href="#">¿Quiénes somos?</a>
+                    <a id="info" class="nav-link" href="#servicios">Servicios <span class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item itemNav">
-                    <a id="info" class="nav-link" href="#">Juegos</a>
+                    <a id="info" class="nav-link" href="#banner">¿Quiénes somos?</a>
+                </li>
+
+                <li class="nav-item itemNav">
+                    <a id="info" class="nav-link" href="#juegos">Juegos</a>
                 </li>
 
                 <li class="nav-item itemNav">
@@ -191,7 +195,7 @@
 
     <!-- ================================================================================================= -->
     <!-- Banner -->
-    <section class="banner banner_img">
+    <section id="banner" class="banner banner_img">
         <div class="container-fluid">
             <div class="row">
                 <div id="banner" class="col-12 pl-0 pr-0">
@@ -217,7 +221,7 @@
 
     <!-- ================================================================================================= -->
     <!-- Seccion de juegos-->
-    <section class="juegos">
+    <section id="juegos">
         <div class="container">
 
             <div class="row">
@@ -376,10 +380,16 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/JS.js"></script>
     <script src="js/aos.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+
     <script>
         AOS.init({
             duration: 800,
             ease: 'ease-in-out-sine'
+        });
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 900,
+            speedAsDuration: true
         });
     </script>
     <!--<script>

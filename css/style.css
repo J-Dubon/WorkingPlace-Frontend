@@ -24,7 +24,7 @@
 #header{
     background: #304998;
 }
-
+/*
 #header #info{
     color: white;
 }
@@ -32,7 +32,7 @@
 #header #info:hover{
     transition: ease 0.2s;
     color: rgb(180, 180, 180);
-}
+}*/
 
 /*========= ENCABEZADO SECCIONES =====*/
 #subtitulo{
