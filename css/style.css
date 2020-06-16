@@ -24,6 +24,11 @@
 #header{
     background: #304998;
 }
+
+#header button{
+    color: green;
+}
+
 /*
 #header #info{
     color: white;
