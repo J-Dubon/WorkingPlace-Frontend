@@ -1,5 +1,9 @@
-#fondo{
+body{
     font-family: 'Raleway', sans-serif;
+    position: relative;
+}
+
+#fondo{
     background-image: url('../images/bgt.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -76,6 +80,9 @@
 #servicios #relleno h4{
     font-weight: bold;
     text-align: center;
+}
+
+#servicios .tarjeta{
 }
 
 /*#servicios #relleno a{
@@ -199,7 +206,7 @@
 }
 
 /*======== BOLETIN INFORMATIVO =============*/
-.boletin{
+#boletin{
     background: white;
 }
 
@@ -207,6 +214,30 @@
     background-color: rgb(168, 0, 22);
     color: white;
 }*/
+
+/* ================ RESEÑAS ===============*/
+#reseñas .contenedor_reseña{
+    background-color: white;
+    padding: 20px;
+    text-align: justify;
+}
+
+#reseñas #texto_reseña{
+    border-left: 5px solid gray;
+    padding-left: 8px;
+    font-style: italic;
+}
+
+#reseñas #usuario_reseña{
+    font-size: 60px;
+    font-weight: 100;
+    color: black;
+    text-decoration: none;
+}
+
+#reseñas #nombre_usuario_reseña{
+    padding-top: 45px;
+}
 
 /*==================== FOOTER ==============*/
 #footer{
