@@ -53,14 +53,15 @@ body{
     color: black;
 }
 
-.main.carousel{
-    height: 100vh;
-    margin-bottom: 0;
-}
 
 /*=============== CAROUSEL =============*/
 .carousel-inner img{
     height: 95vh;
+}
+
+.main.carousel{
+    height: 100vh;
+    margin-bottom: 0;
 }
 
 /*================= SERVICIOS ===========*/
@@ -304,20 +305,40 @@ body{
 
 /* =============================================================*/
 /* ================ PAGINA CATALOGO DE JUEGOS ==================*/
-#catalogo .juegos{
-    background-color: #1e5372;
-}
-
-#catalogo #imagenes_catalogo{
+#catalogo img{
     width: 100%;
+    max-height: 415px;
 }
 
-#catalogo #titulos_catalogos{
-    text-transform: uppercase;
-    color: white;
+#catalogo .item_catalogo{
+    position: relative;
+    overflow: hidden;
 }
 
-#catalogo #descripcion_catalogos{
+#catalogo .imagen_catalogo{
+    transition: all 0.5s;
+}
+
+#catalogo .descripcion_catalogo{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+
+    background: rgba(0, 0, 0, 0.5);
     color: white;
+
+    transform: translateY(100%);
+    transition: all 0.3s ease-out;
+}
+
+#catalogo .descripcion_catalogo p{
     text-align: justify;
+}
+
+#catalogo .item_catalogo:hover .descripcion_catalogo{
+    transform: translateY(0%);
+}
+
+#catalogo .item_catalogo:hover .imagen_catalogo{
+    transform: scale(1.15);
 }
