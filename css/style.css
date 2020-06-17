@@ -301,3 +301,23 @@ body{
     margin: 10px auto;
     text-align: justify;
 }
+
+/* =============================================================*/
+/* ================ PAGINA CATALOGO DE JUEGOS ==================*/
+#catalogo .juegos{
+    background-color: #1e5372;
+}
+
+#catalogo #imagenes_catalogo{
+    width: 100%;
+}
+
+#catalogo #titulos_catalogos{
+    text-transform: uppercase;
+    color: white;
+}
+
+#catalogo #descripcion_catalogos{
+    color: white;
+    text-align: justify;
+}
