@@ -10,10 +10,6 @@ body{
     width: 100%;
 }
 
-.margen{
-    margin-bottom: 57px;
-}
-
 /* Fondo degradado con transparencia*/
 /*body:before{
     content: "";
