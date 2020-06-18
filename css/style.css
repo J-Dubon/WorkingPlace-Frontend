@@ -7,6 +7,11 @@ body{
     background-image: url('../images/bgt.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    width: 100%;
+}
+
+.margen{
+    margin-bottom: 57px;
 }
 
 /* Fondo degradado con transparencia*/
@@ -68,13 +73,14 @@ body{
 #servicios img{
     padding-top: 20px;
     width: 45%;
+    max-height: 170px;
     display: block;
     margin: auto;
 }
 
 #servicios #relleno{
-    background: rgb(241, 255, 255);
-    border: none;
+    /*background: rgb(241, 255, 255);*/
+    /*border: none;*/
     text-align: justify;
 }
 
@@ -83,7 +89,14 @@ body{
     text-align: center;
 }
 
+#servicios #relleno h5{
+    font-weight: bold;
+    text-align: center;
+}
+
 #servicios .tarjeta{
+    max-height: 315px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);;
 }
 
 /*#servicios #relleno a{
@@ -125,6 +138,7 @@ body{
 .juegos__columna{
     position: relative;
     margin-bottom: 30px;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.8);
 }
 
 .juegos__descripcion{
@@ -209,6 +223,7 @@ body{
 /*======== BOLETIN INFORMATIVO =============*/
 #boletin{
     background: white;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.8);
 }
 
 /*.boletin button{
@@ -221,6 +236,7 @@ body{
     background-color: white;
     padding: 20px;
     text-align: justify;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.8);
 }
 
 #reseñas #texto_reseña{
