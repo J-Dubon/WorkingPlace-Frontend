@@ -354,3 +354,10 @@ body{
 #catalogo .item_catalogo:hover .imagen_catalogo{
     transform: scale(1.15);
 }
+
+/*=====================================================*/
+/*================ PAGINA POLITICAS ===================*/
+#politicas .cuerpo{
+    text-align: justify;
+    border: 1px solid black;
+}
