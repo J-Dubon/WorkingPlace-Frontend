@@ -48,7 +48,7 @@
                 </li>
 
                 <li class="nav-item itemNav">
-                    <a id="info" class="nav-link" href="#">Contáctenos</a>
+                    <a id="info" class="nav-link" href="#contactenos">Contáctenos</a>
                 </li>
             </div>
         </div>
@@ -127,7 +127,7 @@
 
             <div class="row">
 
-                <div class=" col-12 col-md-6 col-lg-4 mb-4 mt-1" data-aos="flip-up" data-aos-anchor-placement="bottom-bottom">
+                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="500">
                     <div id="relleno" class="card tarjeta">
                         <img id="color" src="icons/joystick.svg" class="card-img-top" alt="Gaming">
                         <div class="card-body">
@@ -137,7 +137,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1" data-aos="zoom-in-up" data-aos-anchor-placement="bottom-bottom">
+                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="800">
                     <div id="relleno" class="card tarjeta">
                         <img src="icons/internet.svg" class="card-img-top" alt="Gaming">
                         <div class="card-body">
@@ -147,7 +147,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1" data-aos="flip-up" data-aos-anchor-placement="bottom-bottom">
+                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1100">
                     <div id="relleno" class="card tarjeta">
                         <img id="color" src="icons/work.svg" class="card-img-top" alt="Gaming">
                         <div class="card-body">
@@ -159,7 +159,7 @@
             </div>
 
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1" data-aos="flip-down" data-aos-anchor-placement="bottom-bottom">
+                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="500">
                     <div id="relleno" class="card tarjeta">
                         <img id="color" src="icons/printer.svg" class="card-img-top" alt="Gaming">
                         <div class="card-body">
@@ -169,7 +169,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1" data-aos="zoom-in-up" data-aos-anchor-placement="bottom-bottom">
+                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="800">
                     <div id="relleno" class="card tarjeta">
                         <img id="color" src="icons/fax.svg" class="card-img-top" alt="Gaming">
                         <div class="card-body">
@@ -179,7 +179,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1" data-aos="flip-down" data-aos-anchor-placement="bottom-bottom">
+                <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1100">
                     <div id="relleno" class="card tarjeta">
                         <img id="color" src="icons/food.svg" class="card-img-top" alt="Gaming">
                         <div class="card-body">
@@ -367,6 +367,22 @@
     </section>
     <!-- Fin sección de reseñas -->
 
+    <!-- Seccion de contactenos -->
+    <section id="contactenos" class="pt-5 mb-5" data-spy="scroll" data-offset="0">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+
+                </div>
+                <div id="map-container" class="col-12 pr-0 pl-0">
+                    <!--<div id="map-container" class="z-depth-1-half map-container mb-5" style="height: 400px"></div>-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243.78246407021442!2d-86.23351534996631!3d12.144998851945884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f73fddc4a9570ad%3A0x51d696755cb9adf0!2sSupermercado%20La%20Uni%C3%B3n%20Bello%20Horizonte!5e0!3m2!1ses-419!2sni!4v1592631861828!5m2!1ses-419!2sni" width="100%" height="600" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin seccion de contactenos-->
+
     <!-- ================================================================================================= -->
     <!-- Footer -->
     <div id="footer">
@@ -436,6 +452,8 @@
     <script src="js/JS.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
+    <script src="https://maps.google.com/maps/api/js"></script>
+    <script src="js/google-map.js"></script>
 
     <script>
         AOS.init({
@@ -448,6 +466,8 @@
             speedAsDuration: true
         });
     </script>
+
+    
     <!--<script>
     $(document).ready(function() { 
         $('.itemNav').click(function(){
