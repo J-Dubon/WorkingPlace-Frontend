@@ -7,6 +7,7 @@ body{
     background-image: url('../images/bgt.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     width: 100%;
 }
 
