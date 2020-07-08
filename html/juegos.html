@@ -48,7 +48,7 @@
                 </li>
 
                 <li class="nav-item itemNav">
-                    <a id="info" class="nav-link" href="#">Contáctenos</a>
+                    <a data-toggle="modal" data-target="#modalContacto" id="info" class="nav-link" href="#">Contáctenos</a>
                 </li>
             </div>
         </div>
@@ -57,7 +57,7 @@
 
     <!-- ================================================================================================= -->
     <section id="catalogo">
-        <div class="container">
+        <div class="container pb-5">
 
             <div class="row">
                 <div class="col text-center text-uppercase mt-4 mb-3">
@@ -138,9 +138,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="row">
                 <div class="col-8 offset-2 col-md-6 offset-md-0 col-lg-3 pl-1 pr-1 mb-4">
                     <div class="item_catalogo" data-aos="fade-up" data-aos-duration="600">
                         <img loading="lazy" class="imagen_catalogo" src="../images/ValorantV.jpg" alt="">
@@ -212,9 +210,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="row">
                 <div class="col-8 offset-2 col-md-6 offset-md-0 col-lg-3 pl-1 pr-1 mb-4">
                     <div class="item_catalogo" data-aos="fade-up" data-aos-duration="600">
                         <img loading="lazy" class="imagen_catalogo" src="../images/PaladinsV.jpg" alt="">
@@ -286,9 +282,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
             
-            <div class="row">
                 <div class="col-8 offset-2 col-md-6 offset-md-0 col-lg-3 pl-1 pr-1 mb-4">
                     <div class="item_catalogo" data-aos="fade-up" data-aos-duration="600">
                         <img loading="lazy" class="imagen_catalogo" src="../images/Dota2V.jpg" alt="">
@@ -365,6 +359,9 @@
         </div>
     </section>
 
+
+    
+    <!-- ===================================================================================================== -->
     <!-- ===================================================================================================== -->
     <!-- MODALES -->
     
@@ -378,7 +375,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body pl-5 pr-5 pt-4 pb-4">
                     <div class="embed-responsive embed-responsive-21by9">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/8A2W-mK6k-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
@@ -672,10 +669,58 @@
         </div>
     </div>
 
+    <!--================================== MODAL CONTACTENOS =====================================-->
+    <div class="modal fade" id="modalContacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contáctanos</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <div class="contactenos container">
+                        <div class="row align-items-center">
+            
+                            <div class="col-12 col-md-10 offset-md-1 mb-3">
+                                <div class="pt-3">
+                                    <form>
+                                        <div class="form-row">
+                                            <div class="form-group col-12 col-md-6">
+                                                <input type="text" class="form-control" placeholder="Nombre">
+                                            </div>
+                                            <div class="form-group col-12 col-md-6">
+                                                <input type="text" class="form-control" placeholder="Apellido">
+                                            </div>
+                                            <div class="form-group col-12">
+                                                <input type="text" class="form-control" placeholder="Telefono / Celular">
+                                            </div>
+                                            <div class="form-group col-12">
+                                                <input type="text" class="form-control" placeholder="Correo electronico">
+                                            </div>
+                                            <div class="form-group col-12">
+                                                <textarea id="area_mensaje" type="text" class="form-control form-control-lg" placeholder="Escribe tu mensaje"></textarea>
+                                            </div>
+                                            <div class="col-12 text-center">
+                                                <button class="btn btn-primary">Enviar</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <!-- ================================================================================================= -->
     <!-- Footer -->
     <div id="footer">
-        <div class="container pt-3 text-center text-md-left">
+        <div class="container pt-5 text-center text-md-left">
             <div class="row">
 
                 <div class="col-md-4">
