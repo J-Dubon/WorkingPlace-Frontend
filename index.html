@@ -321,7 +321,7 @@
             <div class="row">
 
                 <div class="col-12 col-md-6 col-lg-4 pb-3">
-                    <div class="contenedor_reseña">
+                    <div class="contenedor_reseña shadow">
                         <p id="texto_reseña">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni accusamus nihil perspiciatis harum? Nisi doloremque, tempora dolor incidunt cupiditate velit natus, vitae optio, alias eligendi esse. Eius et excepturi molestias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quis pariatur expedita veniam totam minima."</p>
                         <div class="row align-items-center">
                             <div class="col-4">
@@ -335,7 +335,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4 pb-3">
-                    <div class="contenedor_reseña">
+                    <div class="contenedor_reseña shadow">
                         <p id="texto_reseña">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quasi aut expedita hic aliquam! Odit, tempora reprehenderit maxime, culpa amet at commodi nostrum dolor nisi quia quis perspiciatis in doloribus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quis pariatur expedita veniam totam minima."</p>
                         <div class="row align-items-center">
                             <div class="col-4">
@@ -349,7 +349,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="contenedor_reseña">
+                    <div class="contenedor_reseña shadow">
                         <p id="texto_reseña">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus veritatis architecto eveniet eos amet dolorem, harum impedit laudantium. Porro, quos ad et alias sint itaque est nostrum hic voluptates! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quis pariatur expedita veniam totam minima."</p>
                         <div class="row align-items-center">
                             <div class="col-4">
@@ -369,15 +369,42 @@
 
     <!-- Seccion de contactenos -->
     <section id="contactenos" class="pt-5 mb-5" data-spy="scroll" data-offset="0">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
+        <div class="contactenos container">
+            <div class="row align-items-center">
 
+                <div class="col-12 col-md-5 mb-5">
+                    <div class="tarjeta_contactenos p-5 shadow">
+                        <div class="text-center mb-4"><h2>Contáctanos</h2></div>
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12 col-md-6">
+                                    <input type="text" class="form-control" placeholder="Nombre">
+                                </div>
+                                <div class="form-group col-12 col-md-6">
+                                    <input type="text" class="form-control" placeholder="Apellido">
+                                </div>
+                                <div class="form-group col-12">
+                                    <input type="text" class="form-control" placeholder="Telefono / Celular">
+                                </div>
+                                <div class="form-group col-12">
+                                    <input type="text" class="form-control" placeholder="Correo electronico">
+                                </div>
+                                <div class="form-group col-12">
+                                    <textarea id="area_mensaje" type="text" class="form-control form-control-lg" placeholder="Escribe tu mensaje"></textarea>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button class="btn btn-primary">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div id="map-container" class="col-12 pr-0 pl-0">
+
+                <div id="map-container" class="col-12 col-md-6 offset-md-1 pr-0 pl-0 mb-5">
                     <!--<div id="map-container" class="z-depth-1-half map-container mb-5" style="height: 400px"></div>-->
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243.78246407021442!2d-86.23351534996631!3d12.144998851945884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f73fddc4a9570ad%3A0x51d696755cb9adf0!2sSupermercado%20La%20Uni%C3%B3n%20Bello%20Horizonte!5e0!3m2!1ses-419!2sni!4v1592631861828!5m2!1ses-419!2sni" width="100%" height="600" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
+
             </div>
         </div>
     </section>
@@ -386,7 +413,7 @@
     <!-- ================================================================================================= -->
     <!-- Footer -->
     <div id="footer">
-        <div class="container pt-3 text-center text-md-left">
+        <div class="container pt-5 text-center text-md-left">
             <div class="row">
 
                 <div class="col-md-4">
@@ -400,7 +427,7 @@
                             <p>Ubicación: Rotonda Bello Horizonte frente a entrada principal supermercado La Union. Bello Horizonte. Modulo 9.</p>
                         </div>
                         <!--</div>-->
-                </div>                
+                </div>
 
                 <div class="col-md-4">
                     <h3 class="d-none d-md-block">Información</h3>

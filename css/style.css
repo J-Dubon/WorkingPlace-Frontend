@@ -55,6 +55,9 @@ body{
     color: black;
 }
 
+.shadow{
+    box-shadow: 0 10px 30px 0 rgba(67, 80, 98, 0.24), 0 2px 4px 0 rgba(67, 80, 98, 0.1) !important;
+}
 
 /*=============== CAROUSEL =============*/
 .carousel-inner img{
@@ -220,7 +223,8 @@ body{
 /*======== BOLETIN INFORMATIVO =============*/
 #boletin{
     background: white;
-    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.8);
+    /*box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.8);*/
+    box-shadow: 0 10px 30px 0 rgba(67, 80, 98, 0.24), 0 2px 4px 0 rgba(67, 80, 98, 0.1) !important;
 }
 
 /*.boletin button{
@@ -233,7 +237,7 @@ body{
     background-color: white;
     padding: 20px;
     text-align: justify;
-    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.8);
+    /*box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.8);*/
 }
 
 #reseñas #texto_reseña{
@@ -251,6 +255,19 @@ body{
 
 #reseñas #nombre_usuario_reseña{
     padding-top: 45px;
+}
+
+/*================= CONTACTANOS ============*/
+.map-container{
+    width: 50%;
+}
+
+.tarjeta_contactenos{
+    height: 80%;
+}
+
+#area_mensaje{
+    height: 200px;
 }
 
 /*==================== FOOTER ==============*/
@@ -314,6 +331,15 @@ body{
     padding-bottom: 0;
     margin: 10px auto;
     text-align: justify;
+}
+
+.quienes_somos{
+    margin-top: 57px;
+    padding-top: 0;
+}
+
+.mision{
+    margin-bottom: 57px;
 }
 
 /* =============================================================*/
