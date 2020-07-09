@@ -360,13 +360,12 @@ body{
 /* ================ PAGINA CATALOGO DE JUEGOS ==================*/
 #catalogo a{
     text-transform: none;
-    padding: 12px;
+    padding: 5px 12px 5px 12px;
 }
 
 #catalogo a:hover{
     color: black !important;
     background-color: white !important;
-    border-color: black !important;
 }
 
 #catalogo img{
