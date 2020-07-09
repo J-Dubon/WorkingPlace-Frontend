@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   width="793.70081"
+   height="1122.5197"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8">
+  <title
+     id="title856">Logo WP</title>
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient906">
+      <stop
+         style="stop-color:#0000ff;stop-opacity:1;"
+         offset="0"
+         id="stop902" />
+      <stop
+         style="stop-color:#00ff00;stop-opacity:1"
+         offset="1"
+         id="stop904" />
+    </linearGradient>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter898"
+       x="-0.00023064778"
+       width="1.0004613"
+       y="-0.00018095231"
+       height="1.0003619">
+      <feGaussianBlur
+         stdDeviation="0.095346615"
+         id="feGaussianBlur900" />
+    </filter>
+    <linearGradient
+       xlink:href="#linearGradient906"
+       id="linearGradient908"
+       x1="737.03876"
+       y1="1723.3029"
+       x2="1253.6234"
+       y2="1083.3028"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#linearGradient906"
+       id="linearGradient916"
+       x1="119.53516"
+       y1="734.46484"
+       x2="969.92969"
+       y2="734.46484"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.07511034,-7.9241858e-4,0,0.07511034,-43.399677,37.573362)" />
+    <linearGradient
+       xlink:href="#linearGradient906"
+       id="linearGradient961"
+       x1="58.056507"
+       y1="246.85002"
+       x2="-36.037609"
+       y2="360.81653"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.28740522,0,0,0.28740522,-212.57869,34.229948)" />
+    <linearGradient
+       y2="360.81653"
+       x2="-36.037609"
+       y1="246.85002"
+       x1="58.056507"
+       gradientTransform="matrix(-0.28740522,0,0,0.28740522,-179.2072,34.229948)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient879"
+       xlink:href="#linearGradient906" />
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Logo WP</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <g
+       transform="translate(246.59166)"
+       id="g848">
+      <path
+         d="m -94.960285,49.613018 a 42.807455,42.35821 45.151117 0 1 42.582278,43.031529 42.807455,42.35821 45.151117 0 1 -42.582278,42.133033 42.807455,42.35821 45.151117 0 1 -42.582275,-43.031527 42.807455,42.35821 45.151117 0 1 42.582275,-42.133035 z m 0.05369,21.291705 a 21.403727,21.179105 45.151117 0 0 -0.05369,-5.68e-4 21.403727,21.179105 45.151117 0 0 -21.291135,21.066516 21.403727,21.179105 45.151117 0 0 21.291135,21.515769 21.403727,21.179105 45.151117 0 0 21.29114,-21.066523 21.403727,21.179105 45.151117 0 0 -21.237447,-21.515197 z"
+         style="opacity:1;fill:url(#linearGradient916);fill-opacity:1;fill-rule:evenodd;stroke-width:0.354852"
+         id="path833" />
+      <path
+         transform="matrix(-0.07511034,-7.9241859e-4,0,0.07511034,-43.399677,37.573362)"
+         d="m 685.13672,451.00391 a 425.19682,425.19682 0 0 0 -423.86914,425.19336 425.19682,425.19682 0 0 0 420.0957,425.16603 v 0.01 a 566.92911,566.92911 0 0 0 3.04102,0.018 566.92911,566.92911 0 0 0 0.96289,0 425.19682,425.19682 0 0 0 0.77148,0 566.92911,566.92911 0 0 0 0.32617,0 566.92911,566.92911 0 0 0 1.73438,0 566.92911,566.92911 0 0 0 281.73047,-75.9492 v 206.6953 c 0,157.0394 126.42551,283.4649 283.46481,283.4649 V 734.46484 H 969.92969 A 283.46457,283.46457 0 0 1 686.46484,1017.9297 283.46457,283.46457 0 0 1 403,734.46484 283.46457,283.46457 0 0 1 685.13672,451.00391 Z"
+         style="opacity:1;fill:url(#linearGradient908);fill-opacity:1;fill-rule:evenodd;stroke-width:3.54331;filter:url(#filter898)"
+         id="path838" />
+      <path
+         d="m -233.74721,50.474356 c 5.98937,0 10.78408,9.613735 10.81113,21.55541 l 0.14884,65.720454 c -58.98671,41.32567 26.8361,37.22514 26.8943,-32.57428 l -49.01133,59.36236 V 50.474356 Z"
+         style="opacity:1;fill:url(#linearGradient961);fill-opacity:1;stroke-width:0.0538535"
+         id="path953" />
+      <path
+         id="path877"
+         style="opacity:1;fill:url(#linearGradient879);fill-opacity:1;stroke-width:0.0538535"
+         d="m -158.03868,50.474356 c -5.98937,0 -10.78408,9.613735 -10.81112,21.55541 l -0.14885,65.720454 c 58.98671,41.32567 -26.8361,37.22514 -26.89429,-32.57428 l 49.01132,59.36236 V 50.474356 Z" />
+    </g>
+  </g>
+</svg>
