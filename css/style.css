@@ -1,14 +1,14 @@
-body{
-    font-family: 'Raleway', sans-serif;
-    position: relative;
+body {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
 }
 
-#fondo{
-    background-image: url('../images/bgt.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100%;
+#fondo {
+  background-image: url('../images/bgt.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
 }
 
 /* Fondo degradado con transparencia*/
@@ -27,12 +27,12 @@ body{
     z-index: -1;
 }*/
 
-#header{
-    background: #304998;
+#header {
+  background: #304998;
 }
 
-#header button{
-    color: green;
+#header button {
+  color: green;
 }
 
 /*
@@ -46,57 +46,57 @@ body{
 }*/
 
 /*========= ENCABEZADO SECCIONES =====*/
-#subtitulo{
-    color: black;
+#subtitulo {
+  color: black;
 }
 
-#titulo{
-    font-weight: bold;
-    color: black;
+#titulo {
+  font-weight: bold;
+  color: black;
 }
 
-.shadow{
-    box-shadow: 0 10px 30px 0 rgba(67, 80, 98, 0.24), 0 2px 4px 0 rgba(67, 80, 98, 0.1) !important;
+.shadow {
+  box-shadow: 0 10px 30px 0 rgba(67, 80, 98, 0.24), 0 2px 4px 0 rgba(67, 80, 98, 0.1) !important;
 }
 
 /*=============== CAROUSEL =============*/
-.carousel-inner img{
-    height: 95vh;
+.carousel-inner img {
+  height: 95vh;
 }
 
-.main.carousel{
-    height: 100vh;
-    margin-bottom: 0;
+.main.carousel {
+  height: 100vh;
+  margin-bottom: 0;
 }
 
 /*================= SERVICIOS ===========*/
-#servicios img{
-    padding-top: 20px;
-    width: 45%;
-    max-height: 170px;
-    display: block;
-    margin: auto;
+#servicios img {
+  padding-top: 20px;
+  width: 45%;
+  max-height: 170px;
+  display: block;
+  margin: auto;
 }
 
-#servicios #relleno{
-    /*background: rgb(241, 255, 255);*/
-    /*border: none;*/
-    text-align: justify;
+#servicios #relleno {
+  /*background: rgb(241, 255, 255);*/
+  /*border: none;*/
+  text-align: justify;
 }
 
-#servicios #relleno h4{
-    font-weight: bold;
-    text-align: center;
+#servicios #relleno h4 {
+  font-weight: bold;
+  text-align: center;
 }
 
-#servicios #relleno h5{
-    font-weight: bold;
-    text-align: center;
+#servicios #relleno h5 {
+  font-weight: bold;
+  text-align: center;
 }
 
-#servicios .tarjeta{
-    max-height: 315px;
-    /*box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);*/
+#servicios .tarjeta {
+  max-height: 315px;
+  /*box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);*/
 }
 
 /*#servicios #relleno a{
@@ -109,122 +109,120 @@ body{
 }*/
 
 /*==================== BANNER ================*/
-#banner img{
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+#banner img {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
-.banner_img{
-    position: relative;
-    display: inline-block;
+.banner_img {
+  position: relative;
+  display: inline-block;
 }
 
-.texto_banner{
-    position: absolute;
-    top: 35%;
-    color: white;
+.texto_banner {
+  position: absolute;
+  top: 35%;
+  color: white;
 }
 
-.texto_banner_des{
-    position: absolute;
-    top: 48%;
-    color: white;
+.texto_banner_des {
+  position: absolute;
+  top: 48%;
+  color: white;
 }
 
 /*================= JUEGOS =============*/
-.juegos__columna{
-    position: relative;
-    margin-bottom: 30px;
-    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.8);
+.juegos__columna {
+  position: relative;
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.8);
 }
 
-.juegos__descripcion{
-    position: absolute;
-    top: 0;
-    right: 0;
-    color: #fff;
-    background: rgba(0,0,0,0.7);
-    width: 60%;
-    height: 100%;
+.juegos__descripcion {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+  width: 60%;
+  height: 100%;
 
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.juegos__descripcion_izquierda{
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: #fff;
-    background: rgba(0,0,0,0.7);
-    width: 60%;
-    height: 100%;
+.juegos__descripcion_izquierda {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+  width: 60%;
+  height: 100%;
 
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.juegos__titulo{
-    font-size: 30px;
-    margin: 5px 0;
-    text-align: left;
+.juegos__titulo {
+  font-size: 30px;
+  margin: 5px 0;
+  text-align: left;
 }
 
-.juegos__img{
-    width: 100%;
+.juegos__img {
+  width: 100%;
 }
 
-.juegos__txt{
-    text-align: justify;
-    font-size: 12px;
+.juegos__txt {
+  text-align: justify;
+  font-size: 12px;
 }
 
-.btn-juegos{
-    background: blue;
-    color: white;
+.btn-juegos {
+  background: blue;
+  color: white;
 }
 
-.btn-juegos:hover{
-    background-color: rgb(76, 76, 250);
+.btn-juegos:hover {
+  background-color: rgb(76, 76, 250);
 }
 
-.bg-btn-juegos{
-    background: rgb(2, 89, 189);
-    color: white;
+.bg-btn-juegos {
+  background: rgb(2, 89, 189);
+  color: white;
 }
 
-.bg-btn-juegos:hover{
-    background: rgb(38, 113, 199);
+.bg-btn-juegos:hover {
+  background: rgb(38, 113, 199);
 }
 
-@media(min-width:480px){
-    
-}
+@media(min-width:480px) {}
 
-@media(min-width:990px){
-    .juegos__titulo{
-        font-size: 40px;
-    }
+@media(min-width:990px) {
+  .juegos__titulo {
+    font-size: 40px;
+  }
 
-    .juegos__txt{
-        font-size: 15px;
-    }
+  .juegos__txt {
+    font-size: 15px;
+  }
 }
 
 /*======== BOLETIN INFORMATIVO =============*/
-#boletin{
-    background: white;
-    /*box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.8);*/
-    box-shadow: 0 10px 30px 0 rgba(67, 80, 98, 0.24), 0 2px 4px 0 rgba(67, 80, 98, 0.1) !important;
+#boletin {
+  background: white;
+  /*box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.8);*/
+  box-shadow: 0 10px 30px 0 rgba(67, 80, 98, 0.24), 0 2px 4px 0 rgba(67, 80, 98, 0.1) !important;
 }
 
 /*.boletin button{
@@ -233,161 +231,186 @@ body{
 }*/
 
 /* ================ RESEÑAS ===============*/
-#reseñas .contenedor_reseña{
-    background-color: white;
-    padding: 20px;
-    text-align: justify;
-    /*box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.8);*/
+#reseñas .contenedor_reseña {
+  background-color: white;
+  padding: 20px;
+  text-align: justify;
+  /*box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.8);*/
 }
 
-#reseñas #texto_reseña{
-    border-left: 5px solid gray;
-    padding-left: 8px;
-    font-style: italic;
+#reseñas #texto_reseña {
+  border-left: 5px solid gray;
+  padding-left: 8px;
+  font-style: italic;
 }
 
-#reseñas #usuario_reseña{
-    font-size: 60px;
-    font-weight: 100;
-    color: black;
-    text-decoration: none;
+#reseñas #usuario_reseña {
+  font-size: 60px;
+  font-weight: 100;
+  color: black;
+  text-decoration: none;
 }
 
-#reseñas #nombre_usuario_reseña{
-    padding-top: 45px;
+#reseñas #nombre_usuario_reseña {
+  padding-top: 45px;
 }
 
 /*================= CONTACTANOS ============*/
-.map-container{
-    width: 50%;
+.map-container {
+  width: 50%;
 }
 
-#area_mensaje{
-    height: 200px;
+#area_mensaje {
+  height: 200px;
 }
 
 /*==================== FOOTER ==============*/
-#footer{
-    background: #304998;
-    color: white;
-    text-align: justify;
+#footer {
+  background: #304998;
+  color: white;
+  text-align: justify;
 }
 
-#footer hr{
-    background: white;
+#footer hr {
+  background: white;
 }
 
-#footer #info{
-    text-decoration: none;
-    color: white;
+#footer #info {
+  text-decoration: none;
+  color: white;
 }
 
-#footer #info:hover{
-    transition: ease 0.2s;
-    color: rgb(180, 180, 180);
+#footer #info:hover {
+  transition: ease 0.2s;
+  color: rgb(180, 180, 180);
 }
 
-#footer #redes{
-    color: white;
-    font-size: 25px;
-    background-color: #19348f;
-    text-decoration: none;
-    padding: 8px;
-    border-radius: 50px;
+#footer #redes {
+  color: white;
+  font-size: 25px;
+  background-color: #19348f;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 50px;
 }
 
-#footer #redes:hover{
-    transition: ease 0.2s;
-    background-color: white;
-    color: #19348f;
+#footer #redes:hover {
+  transition: ease 0.2s;
+  background-color: white;
+  color: #19348f;
 }
 
-#footer .esconder{
-    background: rgb(48, 72, 152);
+#footer .esconder {
+  background: rgb(48, 72, 152);
 }
 
-#reservado{
-    text-align: center;
-    font-size: 12px;
+#reservado {
+  text-align: center;
+  font-size: 12px;
 }
 
 /* =============================================================*/
 /*================ PAGINA PREGUNTAS FRECUENTES =================*/
-#separador{
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+#separador {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 /* =============================================================*/
 /* ==================== PAGINA QUIENES SOMOS ===================*/
-.quienes_somos, .mision, .vision{
-    background: white;
-    padding: 20px;
-    padding-bottom: 0;
-    margin: 10px auto;
-    text-align: justify;
+.quienes_somos,
+.mision,
+.vision {
+  background: white;
+  padding: 20px;
+  padding-bottom: 0;
+  margin: 10px auto;
+  text-align: justify;
 }
 
-.quienes_somos{
-    margin-top: 57px;
-    padding-top: 0;
+.quienes_somos {
+  margin-top: 57px;
+  padding-top: 0;
 }
 
-.mision{
-    margin-bottom: 57px;
+.mision {
+  margin-bottom: 57px;
 }
 
 /* =============================================================*/
 /* ================ PAGINA CATALOGO DE JUEGOS ==================*/
-#catalogo img{
-    width: 100%;
-    max-height: 415px;
+#catalogo img {
+  width: 100%;
+  max-height: 415px;
 }
 
-#catalogo .item_catalogo{
-    position: relative;
-    overflow: hidden;
+#catalogo .item_catalogo {
+  position: relative;
+  overflow: hidden;
 }
 
-#catalogo .imagen_catalogo{
-    transition: all 0.5s;
+#catalogo .imagen_catalogo {
+  transition: all 0.5s;
 }
 
-#catalogo .descripcion_catalogo{
-    position: absolute;
-    bottom: 0;
-    padding: 20px;
+#catalogo .descripcion_catalogo {
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
 
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
 
-    transform: translateY(100%);
-    transition: all 0.3s ease-out;
+  transform: translateY(100%);
+  transition: all 0.3s ease-out;
 }
 
-#catalogo .descripcion_catalogo p{
-    text-align: justify;
+#catalogo .descripcion_catalogo p {
+  text-align: justify;
 }
 
-#catalogo .item_catalogo:hover .descripcion_catalogo{
-    transform: translateY(0%);
+#catalogo .item_catalogo:hover .descripcion_catalogo {
+  transform: translateY(0%);
 }
 
-#catalogo .item_catalogo:hover .imagen_catalogo{
-    transform: scale(1.15);
+#catalogo .item_catalogo:hover .imagen_catalogo {
+  transform: scale(1.15);
 }
 
 /*=====================================================*/
 /*================ PAGINA POLITICAS ===================*/
-#politicas .cuerpo{
-    text-align: justify;
-    /*border: 1px solid black;*/
+#politicas .cuerpo {
+  text-align: justify;
+  /*border: 1px solid black;*/
 }
 
 /*=====================================================*/
 /*========= PAGINA TERMINOS Y CONDICIONES =============*/
-#terminos .cuerpo{
-    text-align: justify;
-    /*border: 1px solid black;*/
+#terminos .cuerpo {
+  text-align: justify;
+  /*border: 1px solid black;*/
+}
+
+.text-blue {
+  color: #304998;
+}
+
+.service-banner {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background: url('../images/carousel-1.jpg') 100% 100% fixed;
+  padding: 1rem;
+  height: 426px;
+}
+
+.service-card,
+.service-card > .row {
+  min-height: 235px;
+}
+
+.service-img {
+  height: 100%;
+  object-fit: cover;
 }
