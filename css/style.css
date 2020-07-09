@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 body{
     font-family: 'Raleway', sans-serif !important;
     position: relative !important;
-=======
-body {
-  font-family: 'Raleway', sans-serif;
-  position: relative;
->>>>>>> servicios
 }
 
 #fondo {
@@ -33,21 +27,12 @@ body {
     z-index: -1;
 }*/
 
-<<<<<<< HEAD
-#header {
-  background: #304998;
-}
-
-#header button {
-  color: green;
-=======
 #header{
-    /*background: #304998;*/
+    background: #304998;
 }
 
 .fondo-navbar{
     background: #3430B0;;
->>>>>>> navbar
 }
 
 /*
@@ -83,27 +68,14 @@ body {
   color: black;
 }
 
-<<<<<<< HEAD
-.shadow {
-  box-shadow: 0 10px 30px 0 rgba(67, 80, 98, 0.24), 0 2px 4px 0 rgba(67, 80, 98, 0.1) !important;
-}
-
-=======
->>>>>>> navbar
 /*=============== CAROUSEL =============*/
 .carousel-inner img {
   height: 95vh;
 }
 
-<<<<<<< HEAD
-.main.carousel {
-  height: 100vh;
-  margin-bottom: 0;
-=======
 .sectionCarousel.carousel{
     height: 100vh;
     margin-bottom: 0;
->>>>>>> navbar
 }
 
 .sectionCarousel{
@@ -306,17 +278,8 @@ body {
 }
 
 /*================= CONTACTANOS ============*/
-<<<<<<< HEAD
-.map-container {
-  width: 50%;
-}
-
-#area_mensaje {
-  height: 200px;
-=======
 #area_mensaje{
     height: 200px;
->>>>>>> navbar
 }
 
 /*==================== FOOTER ==============*/
@@ -395,11 +358,6 @@ body {
 
 /* =============================================================*/
 /* ================ PAGINA CATALOGO DE JUEGOS ==================*/
-<<<<<<< HEAD
-#catalogo img {
-  width: 100%;
-  max-height: 415px;
-=======
 #catalogo a{
     text-transform: none;
     padding: 5px 12px 5px 12px;
@@ -413,7 +371,6 @@ body {
 #catalogo img{
     width: 100%;
     max-height: 415px;
->>>>>>> navbar
 }
 
 #catalogo .item_catalogo {
