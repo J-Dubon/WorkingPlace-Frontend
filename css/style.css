@@ -28,11 +28,11 @@ body{
 }*/
 
 #header{
-    background: #304998;
+    /*background: #304998;*/
 }
 
-#header button{
-    color: green;
+.fondo-navbar{
+    background: #3430B0;;
 }
 
 /*
@@ -45,6 +45,15 @@ body{
     color: rgb(180, 180, 180);
 }*/
 
+.top-nav-collapse{
+    background: #304998 !important;
+}
+
+.shadow{
+    box-shadow: 0 10px 30px 0 rgba(67, 80, 98, 0.24), 0 2px 4px 0 rgba(67, 80, 98, 0.1) !important;
+}
+
+/*=========== NAVBAR ============*/
 .btn-outline-light:hover{
     color: black !important;
 }
@@ -59,18 +68,18 @@ body{
     color: black;
 }
 
-.shadow{
-    box-shadow: 0 10px 30px 0 rgba(67, 80, 98, 0.24), 0 2px 4px 0 rgba(67, 80, 98, 0.1) !important;
-}
-
 /*=============== CAROUSEL =============*/
 .carousel-inner img{
     height: 95vh;
 }
 
-.main.carousel{
+.sectionCarousel.carousel{
     height: 100vh;
     margin-bottom: 0;
+}
+
+.sectionCarousel{
+    height: 100vh;
 }
 
 /*================= SERVICIOS ===========*/
@@ -271,10 +280,6 @@ body{
 }
 
 /*================= CONTACTANOS ============*/
-.map-container{
-    width: 50%;
-}
-
 #area_mensaje{
     height: 200px;
 }
@@ -353,6 +358,17 @@ body{
 
 /* =============================================================*/
 /* ================ PAGINA CATALOGO DE JUEGOS ==================*/
+#catalogo a{
+    text-transform: none;
+    padding: 12px;
+}
+
+#catalogo a:hover{
+    color: black !important;
+    background-color: white !important;
+    border-color: black !important;
+}
+
 #catalogo img{
     width: 100%;
     max-height: 415px;
