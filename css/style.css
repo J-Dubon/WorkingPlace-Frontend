@@ -72,6 +72,18 @@ body, h3{
 
 /*=============== BANNER INICIO =============*/
 
+@media (max-width: 1359px) {
+  #home{
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1360px) {
+  #home{
+    margin-bottom: 100px;
+  }
+}
+
 #home a:hover{
   color: black !important;
   background-color: white !important;
@@ -101,12 +113,12 @@ body, h3{
 }
 
 .header-hero-content {
-  padding-top: 180px; 
+  padding-top: 15%; 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1360px) {
   .header-hero-content {
-    padding-top: 100px; 
+    padding-top: 6%; 
   } 
 }
 
@@ -134,7 +146,7 @@ body, h3{
   color: #fff; 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1366px) {
   .header-hero-content .header-title {
     font-size: 24px; 
   } 
