@@ -19,12 +19,14 @@ $('.owl-carousel').owlCarousel({
         0:{
             items:1
         },
-        600:{
+        500:{
+            items:2
+        },
+        1000:{
             items:3
         },
     }
 });
-
 
 /*$(document).ready(function() { 
     $('.itemNav').click(function(){

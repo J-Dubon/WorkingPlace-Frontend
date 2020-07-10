@@ -67,11 +67,11 @@
                         
                     <ul class="navbar-nav nav-flex-icons">
                         <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light">
+                            <a data-toggle="modal" data-target="#modalLogin" class="nav-link waves-effect waves-light">
                                 <i class="far fa-user-circle fa-lg"></i>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li data-toggle="modal" data-target="#modalCarrito" class="nav-item">
                             <a class="nav-link waves-effect waves-light">
                                 <i class="fas fa-shopping-cart"></i>
                             </a>
@@ -308,6 +308,39 @@
 
         </div>
     </section>
+
+    
+
+    <div class="modal fade" id="modalCarrito" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Carrito de compras</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                </div>
+
+                <form class="text-center p-5">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="../images/PrintService.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-5">
+                                <div class="card-body">
+                                    <p class="card-title">Teclado RGB Razer</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3"><p class="card-title pt-4">C$ 150.00</p></div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
     
     <!-- ================================================================================================= -->
     <!-- Footer -->
@@ -370,6 +403,93 @@
         </div>
     </div>
     <!-- Fin del footer -->
+    
+    <!--==============================================================================================-->
+    <!--MODALES-->
+    <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <form class="text-center border border-light p-5" action="#!">
+                    <p class="h4 mb-4">Inicio de sesión</p>
+                    <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="Correo electronico">
+                    <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Contraseña">
+
+                    <div class="d-flex justify-content-around">
+                        <div>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                                <label class="custom-control-label" for="defaultLoginFormRemember">Recuérdame</label>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="">¿Olvidaste tu contraseña?</a>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-block modalButton my-4" type="submit">Ingresar</button>
+
+                    <p>¿Aún no eres miembro?
+                        <a data-toggle="modal" data-target="#modalRegistro"  href="">Registrate</a>
+                    </p>
+
+                    <a href="#" class="mx-2" role="button"><i class="fab fa-facebook-f light-blue-text"></i></a>
+                    <a href="#" class="mx-2" role="button"><i class="fab fa-instagram light-blue-text"></i></a>
+                    <a href="#" class="mx-2" role="button"><i class="fab fa-twitter light-blue-text"></i></a>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalRegistro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <form class="text-center border border-light p-5" action="#!">
+                    <p class="h4 mb-4">Registro</p>
+                    <div class="form-row mb-4">
+                        <div class="col">
+                            <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="Nombre(s)">
+                        </div>
+                        <div class="col">
+                            <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Apellido(s)">
+                        </div>
+                    </div>
+
+                    <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="Correo electronico">
+
+                    <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+                    <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+                        Al menos 8 caracteres y 1 dígito
+                    </small>
+
+                    <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+                    <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+                        Opcional
+                    </small>
+
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
+                        <label class="custom-control-label" for="defaultRegisterFormNewsletter">Suscribirse al boletín informativo</label>
+                    </div>
+
+                    <button class="btn btn-block my-4 modalButton" type="submit">Registrarse</button>
+
+                    <a href="#" class="mx-2" role="button"><i class="fab fa-facebook-f light-blue-text"></i></a>
+                    <a href="#" class="mx-2" role="button"><i class="fab fa-instagram light-blue-text"></i></a>
+                    <a href="#" class="mx-2" role="button"><i class="fab fa-twitter light-blue-text"></i></a>
+                    <hr>
+
+                    <p>Al hacer click en
+                    <em>Registrarse</em> aceptas nuestros
+                    <a href="terminos_condiciones.html" target="_blank">términos y condiciones</a>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
 
     <!--==============================================================================================-->
     <!-- Optional JavaScript -->
