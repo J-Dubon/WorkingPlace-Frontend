@@ -92,7 +92,7 @@
     <!-- ================================================================================================= -->
     <!-- Banner de inicio -->
     <section>
-        <div id="home" class="header-hero bg_cover" style="background-image: url(images/banner-bg.png);">
+        <div id="home" class="header-hero bg_cover" style="background-image: url(images/banner-bg.svg);">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
@@ -160,9 +160,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="row">
                 <div class="col-12 col-md-6 col-lg-4 mb-4 mt-1" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="500">
                     <div id="relleno" class="card tarjeta shadow">
                         <img loading="lazy" id="color" src="icons/printer.svg" class="card-img-top" alt="Gaming">
@@ -535,8 +533,6 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
-    <!--JS propio-->
-    <script src="js/JS.js"></script>
 
     <!--Libreria de animaciones-->
     <script src="js/aos.js"></script>
@@ -558,36 +554,9 @@
     <!--Particles JS-->
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
-    <!--<script src="js/particles.min.js"></script>-->
 
-    <script>
-        $('.owl-carousel').owlCarousel({
-            loop:true,
-            margin:10,
-            autoplay: true,
-            autoplayTimeout: 4000,
-            dots: false,
-            responsive:{
-                0:{
-                    items:1
-                },
-                600:{
-                    items:3
-                },
-            }
-        })
-
-        AOS.init({
-            duration: 800,
-            ease: 'ease-in-out-sine'
-        });
-
-        var scroll = new SmoothScroll('a[href*="#"]', {
-            speed: 900,
-            speedAsDuration: true
-        });
-    </script>
-
+    <!--JS propio-->
+    <script src="js/JS.js"></script>
     
     <!--<script>
     $(document).ready(function() { 
