@@ -26,7 +26,6 @@ $('.owl-carousel').owlCarousel({
 });
 
 
-
 /*$(document).ready(function() { 
     $('.itemNav').click(function(){
         var $target = $('.navbar-collapse');

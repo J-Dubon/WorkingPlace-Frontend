@@ -59,6 +59,16 @@ body, h3{
     color: rgb(180, 180, 180);
 }*/
 
+/*============= MODALES ==============*/
+.modalButton{
+  background: #3e90d3;
+}
+
+.modalButton:hover{
+  background: #304998 ;
+  color: white;
+}
+
 /*========= ENCABEZADO SECCIONES =====*/
 #subtitulo {
   color: black;
