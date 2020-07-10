@@ -229,6 +229,7 @@ body, h3{
 /*==================== BANNER ================*/
 #banner img {
   width: 100%;
+  min-height: 280px;
   /*height: 50vh;*/
   display: flex;
   justify-content: center;
