@@ -361,6 +361,15 @@ body, h3{
 
 /* =============================================================*/
 /* ================ PAGINA CATALOGO DE JUEGOS ==================*/
+.games-banner{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background: url('../images/GamingBanner.jpg') 100% 100% fixed;
+  padding: 1rem;
+  height: 426px;
+}
+
 #catalogo a{
     text-transform: none;
     padding: 5px 12px 5px 12px;
