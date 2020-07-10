@@ -70,11 +70,11 @@
                                 <i class="far fa-user-circle fa-lg"></i>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light">
-                                <i class="fas fa-shopping-cart"></i>
-                            </a>
-                        </li>
+                        <li data-toggle="modal" data-target="#modalCarrito" class="nav-item">
+                          <a class="nav-link waves-effect waves-light">
+                              <i class="fas fa-shopping-cart"></i>
+                          </a>
+                      </li>
                     </ul>
                     
                 </ul>
@@ -330,6 +330,105 @@
 
     <!--==============================================================================================-->
     <!--MODALES-->
+    <div class="modal fade" id="modalCarrito" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+
+              <div class="modal-header">
+                  <h5 class="modal-title">Carrito de compras</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+              </div>
+
+              <form class="text-center p-5">
+                <ul class="list-group">
+                  <li class="list-group-item p-0 mb-1">
+                    <div class="card" style="font-size: 12; max-height: 89px; box-shadow: none;">
+                        <div class="row no-gutters">
+                          <div class="col-md-4 pr-1">
+                              <img src="../images/PrintService.jpg" class="card-img" alt="...">
+                          </div>
+                          <div class="col-md-3 d-flex align-items-center pr-1">
+                            <p class="font-weight-bold mb-0">Teclado RGB Razer</p>
+                          </div>
+                          <div class="col-md-3 d-flex align-items-center pr-1">
+                            <input type="number" name="cart_item_count" class="form-control" value="01">
+                          </div>
+                          <div class="col-md-2 d-flex align-items-center">
+                            <p>C$ 150.00</p>
+                          </div>
+                        </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item p-0 mb-1">
+                    <div class="card" style="font-size: 12; max-height: 89px; box-shadow: none;">
+                      <div class="row no-gutters">
+                        <div class="col-md-4 pr-1">
+                            <img src="../images/PrintService.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-3 d-flex align-items-center pr-1">
+                          <p class="font-weight-bold mb-0">Teclado RGB Razer</p>
+                        </div>
+                        <div class="col-md-3 d-flex align-items-center pr-1">
+                          <input type="number" name="cart_item_count" class="form-control" value="01">
+                        </div>
+                        <div class="col-md-2 d-flex align-items-center">
+                          <p>C$ 150.00</p>
+                        </div>
+                      </div>
+                  </div>
+                  </li>
+                  <li class="list-group-item p-0 mb-1">
+                    <div class="card" style="font-size: 12; max-height: 89px; box-shadow: none;">
+                      <div class="row no-gutters">
+                        <div class="col-md-4 pr-1">
+                            <img src="../images/PrintService.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-3 d-flex align-items-center pr-1">
+                          <p class="font-weight-bold mb-0">Teclado RGB Razer</p>
+                        </div>
+                        <div class="col-md-3 d-flex align-items-center pr-1">
+                          <input type="number" name="cart_item_count" class="form-control" value="01">
+                        </div>
+                        <div class="col-md-2 d-flex align-items-center">
+                          <p>C$ 150.00</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item p-0 mb-1">
+                    <div class="card" style="font-size: 12; max-height: 89px; box-shadow: none;">
+                      <div class="row no-gutters">
+                        <div class="col-md-4 pr-1">
+                            <img src="../images/PrintService.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-3 d-flex align-items-center pr-1">
+                          <p class="font-weight-bold mb-0">Teclado RGB Razer</p>
+                        </div>
+                        <div class="col-md-3 d-flex align-items-center pr-1">
+                          <input type="number" name="cart_item_count" class="form-control" value="01">
+                        </div>
+                        <div class="col-md-2 d-flex align-items-center">
+                          <p>C$ 150.00</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item p-0 mb-1">
+                    <div class="row">
+                      <div class="col-12 d-flex flex-row-reverse">
+                        <button type="submit" class="btn btn-primary">Comprar</button>
+                        <button type="reset" class="btn btn-danger">Eliminar Todo</button>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </form>
+
+          </div>
+      </div>
+  </div>
     <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
