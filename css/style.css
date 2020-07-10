@@ -43,8 +43,7 @@ body, h3{
 }
 
 .fondo-navbar{
-    background: #3430B0;
-    color: black;
+    background: #3430b0;
 }
 
 .top-nav-collapse{
@@ -71,18 +70,109 @@ body, h3{
   color: black;
 }
 
-/*=============== CAROUSEL =============*/
-.carousel-inner img {
-  height: 95vh;
+/*=============== BANNER INICIO =============*/
+
+#home a:hover{
+  color: black !important;
+  background-color: white !important;
 }
 
-.sectionCarousel.carousel{
-    height: 100vh;
-    margin-bottom: 0;
+.header-hero{
+  position: relative;
+  z-index: 5;
+  background-position: bottom center; 
 }
 
-.sectionCarousel{
-    height: 100vh;
+.bg_cover{
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+}
+
+#particles-js{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1; 
+}
+
+.header-hero-content {
+  padding-top: 180px; 
+}
+
+@media (max-width: 767px) {
+  .header-hero-content {
+    padding-top: 100px; 
+  } 
+}
+
+.header-hero-content .header-sub-title {
+  font-size: 38px;
+  font-weight: 300;
+  color: #fff; 
+}
+
+@media (max-width: 767px) {
+  .header-hero-content .header-sub-title {
+    font-size: 24px; 
+  } 
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .header-hero-content .header-sub-title {
+    font-size: 30px; 
+  } 
+}
+
+.header-hero-content .header-title {
+  font-size: 38px;
+  font-weight: 700;
+  color: #fff; 
+}
+
+@media (max-width: 767px) {
+  .header-hero-content .header-title {
+    font-size: 24px; 
+  } 
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .header-hero-content .header-title {
+    font-size: 30px; 
+  } 
+}
+
+.header-hero-content .text {
+  color: #fff;
+  margin-top: 30px; 
+}
+
+.header-hero-content .main-btn {
+  margin-top: 40px; 
+}
+
+.header-hero-image {
+  padding-top: 45px; 
+}
+
+.header-hero-image img {
+  max-width: 650px; 
+}
+
+@media (max-width: 767px) {
+  .header-hero-image img {
+    max-width: 100%; 
+  } 
+}
+
+@media (max-width: 767px) {
+  .header-hero-image {
+    padding-top: 30px; 
+  } 
 }
 
 /*================= SERVICIOS ===========*/
