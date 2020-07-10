@@ -49,3 +49,19 @@
 @import "now-ui-dashboard/cards/card-map";
 
 @import "now-ui-dashboard/responsive";
+
+.comment-profile {
+  display: block;
+}
+
+.comment-profile__link {
+  display: block;
+  text-align: center;
+}
+
+.comment-profile__img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
