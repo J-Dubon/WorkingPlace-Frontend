@@ -1,0 +1,474 @@
+<!--
+
+=========================================================
+* Now UI Dashboard - v1.5.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/now-ui-dashboard
+* Copyright 2019 Creative Tim (http://www.creative-tim.com)
+
+* Designed by www.invisionapp.com Coded by www.creative-tim.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    Working Place Dashboard
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- CSS Files -->
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../assets/css/now-ui-dashboard.css?v=1.5.0" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="../assets/demo/demo.css" rel="stylesheet" />
+</head>
+
+<body class="">
+  <div class="wrapper ">
+    <div class="sidebar" data-color="orange">
+      <!--
+        Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
+    -->
+      <div class="logo">
+        <a href="#" class="simple-text logo-normal">
+          Working Place
+        </a>
+      </div>
+      <div class="sidebar-wrapper" id="sidebar-wrapper">
+        <ul class="nav">
+          <li>
+            <a href="./dashboard.html">
+              <i class="now-ui-icons design_app"></i>
+              <p>Panel de Control</p>
+            </a>
+          </li>
+          <li>
+            <a href="./store.html">
+              <i class="now-ui-icons shopping_shop"></i>
+              <p>Tienda</p>
+            </a>
+          </li>
+          <li class="active ">
+            <a href="./inbox.html">
+              <i class="now-ui-icons files_box"></i>
+              <p>Bandeja de Comentarios</p>
+            </a>
+          </li>
+          <li>
+            <a href="./map.html">
+              <i class="now-ui-icons location_map-big"></i>
+              <p>Mapas</p>
+            </a>
+          </li>
+          <li>
+            <a href="./notifications.html">
+              <i class="now-ui-icons ui-1_bell-53"></i>
+              <p>Notificaciones</p>
+            </a>
+          </li>
+          <li>
+            <a href="./user.html">
+              <i class="now-ui-icons users_single-02"></i>
+              <p>Perfil de Usuario</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel" id="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-transparent  bg-primary  navbar-absolute">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-toggle">
+              <button type="button" class="navbar-toggler">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </button>
+            </div>
+            <a class="navbar-brand" href="#pablo">Bandeja de Comentarios</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            <form>
+              <div class="input-group no-border">
+                <input type="text" value="" class="form-control" placeholder="Buscar...">
+                <div class="input-group-append">
+                  <div class="input-group-text">
+                    <i class="now-ui-icons ui-1_zoom-bold"></i>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#pablo">
+                  <i class="now-ui-icons media-2_sound-wave"></i>
+                  <p>
+                    <span class="d-lg-none d-md-block">Stats</span>
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="now-ui-icons location_world"></i>
+                  <p>
+                    <span class="d-lg-none d-md-block">Some Actions</span>
+                  </p>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pablo">
+                  <i class="now-ui-icons users_single-02"></i>
+                  <p>
+                    <span class="d-lg-none d-md-block">Account</span>
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+      <div class="panel-header panel-header-sm">
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card bg-transparent mb-3" style="box-shadow: none;">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <div class="comment-profile">
+                        <a href="#" class="comment-profile__link">
+                          <img class="comment-profile__img border-gray" src="../assets/img/mike.jpg" alt="...">
+                          <h6 class="title">Fulton Pérez</h6>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body bg-white">
+                        <blockquote class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eligendi obcaecati, magni officia molestias eos enim optio sit necessitatibus aspernatur.</blockquote>
+                        <p class="card-text"><small class="text-muted">Comentario ralizado hace 3 minutos</small></p>
+                      </div>
+                      <div class="card-footer bg-primary">
+                        <form>
+                          <div class="row">
+                            <div class="col-12 p-1">
+                              <div class="input-group mb-0">
+                                <input type="text" class="form-control bg-white" placeholder="Responder">
+                                <div class="input-group-append">
+                                  <button type="submit" class="btn btn-info"><i class="now-ui-icons design_app"></i></button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="card bg-transparent mb-3" style="box-shadow: none;">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <div class="comment-profile">
+                        <a href="#" class="comment-profile__link">
+                          <img class="comment-profile__img border-gray" src="../assets/img/mike.jpg" alt="...">
+                          <h6 class="title">Fulton Pérez</h6>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body bg-white">
+                        <blockquote class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eligendi obcaecati, magni officia molestias eos enim optio sit necessitatibus aspernatur.</blockquote>
+                        <p class="card-text"><small class="text-muted">Comentario ralizado hace 3 minutos</small></p>
+                      </div>
+                      <div class="card-footer bg-primary">
+                        <form>
+                          <div class="row">
+                            <div class="col-12 p-1">
+                              <div class="input-group mb-0">
+                                <input type="text" class="form-control bg-white" placeholder="Responder">
+                                <div class="input-group-append">
+                                  <button type="submit" class="btn btn-info"><i class="now-ui-icons design_app"></i></button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="card bg-transparent mb-3" style="box-shadow: none;">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <div class="comment-profile">
+                        <a href="#" class="comment-profile__link">
+                          <img class="comment-profile__img border-gray" src="../assets/img/mike.jpg" alt="...">
+                          <h6 class="title">Fulton Pérez</h6>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body bg-white">
+                        <blockquote class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eligendi obcaecati, magni officia molestias eos enim optio sit necessitatibus aspernatur.</blockquote>
+                        <p class="card-text"><small class="text-muted">Comentario ralizado hace 3 minutos</small></p>
+                      </div>
+                      <div class="card-footer bg-primary">
+                        <form>
+                          <div class="row">
+                            <div class="col-12 p-1">
+                              <div class="input-group mb-0">
+                                <input type="text" class="form-control bg-white" placeholder="Responder">
+                                <div class="input-group-append">
+                                  <button type="submit" class="btn btn-info"><i class="now-ui-icons design_app"></i></button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="card bg-transparent mb-3" style="box-shadow: none;">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <div class="comment-profile">
+                        <a href="#" class="comment-profile__link">
+                          <img class="comment-profile__img border-gray" src="../assets/img/mike.jpg" alt="...">
+                          <h6 class="title">Fulton Pérez</h6>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body bg-white">
+                        <blockquote class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eligendi obcaecati, magni officia molestias eos enim optio sit necessitatibus aspernatur.</blockquote>
+                        <p class="card-text"><small class="text-muted">Comentario ralizado hace 3 minutos</small></p>
+                      </div>
+                      <div class="card-footer bg-primary">
+                        <form>
+                          <div class="row">
+                            <div class="col-12 p-1">
+                              <div class="input-group mb-0">
+                                <input type="text" class="form-control bg-white" placeholder="Responder">
+                                <div class="input-group-append">
+                                  <button type="submit" class="btn btn-info"><i class="now-ui-icons design_app"></i></button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="card bg-transparent mb-3" style="box-shadow: none;">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <div class="comment-profile">
+                        <a href="#" class="comment-profile__link">
+                          <img class="comment-profile__img border-gray" src="../assets/img/mike.jpg" alt="...">
+                          <h6 class="title">Fulton Pérez</h6>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body bg-white">
+                        <blockquote class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eligendi obcaecati, magni officia molestias eos enim optio sit necessitatibus aspernatur.</blockquote>
+                        <p class="card-text"><small class="text-muted">Comentario ralizado hace 3 minutos</small></p>
+                      </div>
+                      <div class="card-footer bg-primary">
+                        <form>
+                          <div class="row">
+                            <div class="col-12 p-1">
+                              <div class="input-group mb-0">
+                                <input type="text" class="form-control bg-white" placeholder="Responder">
+                                <div class="input-group-append">
+                                  <button type="submit" class="btn btn-info"><i class="now-ui-icons design_app"></i></button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-chart">
+              <div class="card-header">
+                <h5 class="card-category">Estadísticas Email</h5>
+                <h4 class="card-title">Rendimiento Diario</h4>
+              </div>
+              <div class="card-body">
+                <div class="chart-area">
+                  <canvas id="barChartSimpleGradientsNumbers"></canvas>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="stats">
+                  <i class="now-ui-icons ui-2_time-alarm"></i> Hace Un Momento
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class=" container-fluid ">
+          <nav>
+            <ul>
+              <li>
+                <a href="#">
+                  Equipo de Desarrollo
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Ayuda
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="copyright" id="copyright">
+            &copy; <script>
+              document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+            </script>, <span>Working Place. Todos los derechos reservados.</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!--   Core JS Files   -->
+  <script src="../assets/js/core/jquery.min.js"></script>
+  <script src="../assets/js/core/popper.min.js"></script>
+  <script src="../assets/js/core/bootstrap.min.js"></script>
+  <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!-- Chart JS -->
+  <script src="../assets/js/plugins/chartjs.min.js"></script>
+  <!--  Notifications Plugin    -->
+  <script src="../assets/js/plugins/bootstrap-notify.js"></script>
+  <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="../assets/js/now-ui-dashboard.min.js?v=1.5.0" type="text/javascript"></script><!-- Now Ui Dashboard DEMO methods, don't include it in your project! -->
+  <script src="../assets/demo/demo.js"></script>
+  <script>
+    $(document).ready(function() {
+      var e = document.getElementById("barChartSimpleGradientsNumbers").getContext("2d");
+
+      gradientFill = e.createLinearGradient(0, 170, 0, 50);
+      gradientFill.addColorStop(0, "rgba(128, 182, 244, 0)");
+      gradientFill.addColorStop(1, hexToRGB('#2CA8FF', 0.6));
+
+      var a = {
+        type: "bar",
+        data: {
+          labels: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Deciembre"],
+          datasets: [{
+            label: "Active Countries",
+            backgroundColor: gradientFill,
+            borderColor: "#2CA8FF",
+            pointBorderColor: "#FFF",
+            pointBackgroundColor: "#2CA8FF",
+            pointBorderWidth: 2,
+            pointHoverRadius: 4,
+            pointHoverBorderWidth: 1,
+            pointRadius: 4,
+            fill: true,
+            borderWidth: 1,
+            data: [80, 99, 86, 96, 123, 85, 100, 75, 88, 90, 123, 155]
+          }]
+        },
+        options: {
+          maintainAspectRatio: false,
+          legend: {
+            display: false
+          },
+          tooltips: {
+            bodySpacing: 4,
+            mode: "nearest",
+            intersect: 0,
+            position: "nearest",
+            xPadding: 10,
+            yPadding: 10,
+            caretPadding: 10
+          },
+          responsive: 1,
+          scales: {
+            yAxes: [{
+              gridLines: 0,
+              gridLines: {
+                zeroLineColor: "transparent",
+                drawBorder: false
+              }
+            }],
+            xAxes: [{
+              display: 0,
+              gridLines: 0,
+              ticks: {
+                display: false
+              },
+              gridLines: {
+                zeroLineColor: "transparent",
+                drawTicks: false,
+                display: false,
+                drawBorder: false
+              }
+            }]
+          },
+          layout: {
+            padding: {
+              left: 0,
+              right: 0,
+              top: 15,
+              bottom: 15
+            }
+          }
+        }
+      };
+
+      var viewsChart = new Chart(e, a);
+
+    });
+  </script>
+</body>
+
+</html>
