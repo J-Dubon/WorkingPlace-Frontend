@@ -1,4 +1,4 @@
-body{
+body, h3{
     font-family: 'Raleway', sans-serif !important;
     position: relative !important;
 }
@@ -427,7 +427,10 @@ body{
   color: #304998;
 }
 
-.service-banner {
+/*=====================================================*/
+/*================ PAGINA SERVICIOS ===================*/
+
+.service-banner{
   align-items: center;
   display: flex;
   justify-content: center;
@@ -437,11 +440,26 @@ body{
 }
 
 .service-card,
-.service-card > .row {
+.service-card > .row{
   min-height: 235px;
 }
 
-.service-img {
+.service-img{
   height: 100%;
   object-fit: cover;
+}
+
+/*===========================================================*/
+/*================= PAGINA ECOMMERCE ======================*/
+.ecommerce-banner{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background: url('../images/ecommerce/banner.jpg') 100% 100% fixed;
+  padding: 1rem;
+  height: 426px;
+}
+
+.fondo-filtros{
+    background: #304998 !important;
 }

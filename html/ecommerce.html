@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+        <!--Fuentes-->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+        <!--CSS propio-->
+        <link rel="stylesheet" href="../css/style.css">
+
+        <link rel="stylesheet" href="../css/main.css">
+	    <link rel="stylesheet" href="../icons/themify-icons/themify-icons.css">
+
+        <!--Iconos-->
+        <link rel="stylesheet" href="../css/fontello.css">
+
+        <!--Librerias de animaciones-->
+        <link rel="stylesheet" href="../css/animate.css">
+        <link rel="stylesheet" href="../css/aos.css">
+        
+        <!--MDBootstrap-->
+        <link rel="stylesheet" href="../css/mdb.min.css" type="text/css">
+
+
+    <title>Workingplace</title>
+    </head>
+
+    <body id="" data-spy="scroll" data-target="#navbarPagina" data-offset="57">
+
+    <!-- Navbar header -->
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark sticky-top fondo-navbar scrolling-navbar">
+        <div class="container">
+            <a class="navbar-brand text-white animate__animated animate__swing animate__delay-1s" href="#">Working Place</a>
+
+            <button class="navigation navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPagina" aria-controls="navbarPagina" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse animate__animated animate__backInLeft animate__delay-0-5s" id="navbarPagina">
+                <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item itemNav">
+                    <a id="info" class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item itemNav">
+                    <a id="info" class="nav-link" href="../html/servicios.html">Servicios <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item itemNav">
+                    <a id="info" class="nav-link" href="../html/quienes_somos.html">¿Quiénes somos?</a>
+                </li>
+
+                <li class="nav-item itemNav">
+                    <a id="info" class="nav-link" href="../html/juegos.html">Juegos</a>
+                </li>
+
+                <li class="nav-item itemNav">
+                    <a data-toggle="modal" data-target="#modalContacto" id="info" class="nav-link" href="#">Contáctenos</a>
+                </li>
+                
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light">
+                            <i class="far fa-user-circle fa-lg"></i>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Fin Navbar Header -->
+
+    <!-- ===================================================================================================== -->
+	<!-- ================ Tienda ================= -->		  
+    <section>
+
+        <div class="ecommerce-banner mb-5">
+            <div class="text-center text-uppercase">
+                <small id="subtitulo" class="text-white">Nuestros</small>
+                <h2 id="titulo" class="text-white">Productos</h2>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-5">
+
+                    <div class="sidebar-categories">
+                        <div class="head fondo-filtros">Tipo</div>
+                            <ul class="main-categories">
+                                <li class="common-filter">
+                                    <form action="#">
+                                    <ul>
+                                        <li class="filter-list"><input class="pixel-radio" type="radio"><label>Auriculares<span> (4)</span></label></li>
+                                        <li class="filter-list"><input class="pixel-radio" type="radio"><label>Mouse<span> (8)</span></label></li>
+                                        <li class="filter-list"><input class="pixel-radio" type="radio"><label>USB<span> (14)</span></label></li>
+                                        <li class="filter-list"><input class="pixel-radio" type="radio"><label>Teclados<span> (7)</span></label></li>
+                                    </ul>
+                                    </form>
+                                </li>
+                            </ul>
+                    </div>
+
+                    <div class="sidebar-filter">
+                        <div class="top-filter-head fondo-filtros">Otros filtros</div>
+
+                        <div class="common-filter">
+                            <div class="head">Marcas</div>
+                            <form action="#">
+                                <ul>
+                                <li class="filter-list"><input class="pixel-radio" type="radio"><label>Apple<span> (3)</span></label></li>
+                                <li class="filter-list"><input class="pixel-radio" type="radio"><label>Asus<span> (8)</span></label></li>
+                                <li class="filter-list"><input class="pixel-radio" type="radio"><label>Logitech<span> (6)</span></label></li>
+                                <li class="filter-list"><input class="pixel-radio" type="radio"><label>Huawei<span> (5)</span></label></li>
+                                <li class="filter-list"><input class="pixel-radio" type="radio"><label>Samsung<span> (7)</span></label></li>
+                                </ul>
+                            </form>
+                        </div>
+
+                        <div class="common-filter">
+                            <div class="head">Color</div>
+                            <form action="#">
+                                <ul>
+                                <li class="filter-list"><input class="pixel-radio" type="radio"><label for="black">Azul<span>(2)</span></label></li>
+                                <li class="filter-list"><input class="pixel-radio" type="radio"><label for="balckleather">Negro<span>(5)</span></label></li>
+                                <li class="filter-list"><input class="pixel-radio" type="radio" id="blackred" name="color"><label for="blackred">Blanco con negro<span> (8)</span></label></li>
+                                <li class="filter-list"><input class="pixel-radio" type="radio" id="gold" name="color"><label for="gold">Amarillo<span> (3)</span></label></li>
+                                <li class="filter-list"><input class="pixel-radio" type="radio" id="spacegrey" name="color"><label for="spacegrey">Gris<span> (9)</span></label></li>
+                                </ul>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-8 col-md-7">
+
+                <!-- Buscador -->
+                <div class="filter-bar d-flex flex-wrap align-items-center">
+                    <div>
+                        <div class="input-group filter-bar-search">
+                            <input type="text" placeholder="Buscar">
+                            <div class="input-group-append">
+                            <button type="button"><i class="ti-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin buscador -->
+
+                <!-- Productos -->
+                <section class="lattest-product-area pb-40 category-list">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card text-center card-product">
+                                <div class="card-product__img">
+                                    <img class="card-img" src="../images/ecommerce/productos/product1.png" alt="">
+                                    <ul class="card-product__imgOverlay">
+                                        <li><button><i class="ti-search"></i></button></li>
+                                        <li><button><i class="ti-shopping-cart"></i></button></li>
+                                        <li><button><i class="ti-heart"></i></button></li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <p>Accessories</p>
+                                    <h4 class="card-product__title"><a href="#">Quartz Belt Watch</a></h4>
+                                    <p class="card-product__price">C$ 150.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card text-center card-product">
+                                <div class="card-product__img">
+                                    <img class="card-img" src="../images/ecommerce/productos/product2.png" alt="">
+                                    <ul class="card-product__imgOverlay">
+                                        <li><button><i class="ti-search"></i></button></li>
+                                        <li><button><i class="ti-shopping-cart"></i></button></li>
+                                        <li><button><i class="ti-heart"></i></button></li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <p>Beauty</p>
+                                    <h4 class="card-product__title"><a href="#">Women Freshwash</a></h4>
+                                    <p class="card-product__price">C$ 150.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card text-center card-product">
+                                <div class="card-product__img">
+                                    <img class="card-img" src="../images/ecommerce/productos/product3.png" alt="">
+                                    <ul class="card-product__imgOverlay">
+                                    <li><button><i class="ti-search"></i></button></li>
+                                    <li><button><i class="ti-shopping-cart"></i></button></li>
+                                    <li><button><i class="ti-heart"></i></button></li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <p>Decor</p>
+                                    <h4 class="card-product__title"><a href="#">Room Flash Light</a></h4>
+                                    <p class="card-product__price">C$ 150.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card text-center card-product">
+                                <div class="card-product__img">
+                                    <img class="card-img" src="../images/ecommerce/productos/product4.png" alt="">
+                                    <ul class="card-product__imgOverlay">
+                                        <li><button><i class="ti-search"></i></button></li>
+                                        <li><button><i class="ti-shopping-cart"></i></button></li>
+                                        <li><button><i class="ti-heart"></i></button></li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <p>Decor</p>
+                                    <h4 class="card-product__title"><a href="#">Room Flash Light</a></h4>
+                                    <p class="card-product__price">C$ 150.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card text-center card-product">
+                                <div class="card-product__img">
+                                    <img class="card-img" src="../images/ecommerce/productos/product5.png" alt="">
+                                    <ul class="card-product__imgOverlay">
+                                    <li><button><i class="ti-search"></i></button></li>
+                                    <li><button><i class="ti-shopping-cart"></i></button></li>
+                                    <li><button><i class="ti-heart"></i></button></li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <p>Accessories</p>
+                                    <h4 class="card-product__title"><a href="#">Man Office Bag</a></h4>
+                                    <p class="card-product__price">C$ 150.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card text-center card-product">
+                                <div class="card-product__img">
+                                    <img class="card-img" src="../images/ecommerce/productos/product6.png" alt="">
+                                    <ul class="card-product__imgOverlay">
+                                        <li><button><i class="ti-search"></i></button></li>
+                                        <li><button><i class="ti-shopping-cart"></i></button></li>
+                                        <li><button><i class="ti-heart"></i></button></li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <p>Kids Toy</p>
+                                    <h4 class="card-product__title"><a href="#">Charging Car</a></h4>
+                                    <p class="card-product__price">C$ 150.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card text-center card-product">
+                                <div class="card-product__img">
+                                    <img class="card-img" src="../images/ecommerce/productos/product7.png" alt="">
+                                    <ul class="card-product__imgOverlay">
+                                        <li><button><i class="ti-search"></i></button></li>
+                                        <li><button><i class="ti-shopping-cart"></i></button></li>
+                                        <li><button><i class="ti-heart"></i></button></li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <p>Accessories</p>
+                                    <h4 class="card-product__title"><a href="#">Blutooth Speaker</a></h4>
+                                    <p class="card-product__price">C$ 150.00</p>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card text-center card-product">
+                                <div class="card-product__img">
+                                    <img class="card-img" src="../images/ecommerce/productos/product8.png" alt="">
+                                    <ul class="card-product__imgOverlay">
+                                    <li><button><i class="ti-search"></i></button></li>
+                                    <li><button><i class="ti-shopping-cart"></i></button></li>
+                                    <li><button><i class="ti-heart"></i></button></li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <p>Kids Toy</p>
+                                    <h4 class="card-product__title"><a href="#">Charging Car</a></h4>
+                                    <p class="card-product__price">C$ 150.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card text-center card-product">
+                                <div class="card-product__img">
+                                    <img class="card-img" src="../images/ecommerce/productos/product1.png" alt="">
+                                    <ul class="card-product__imgOverlay">
+                                    <li><button><i class="ti-search"></i></button></li>
+                                    <li><button><i class="ti-shopping-cart"></i></button></li>
+                                    <li><button><i class="ti-heart"></i></button></li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <p>Accessories</p>
+                                    <h4 class="card-product__title"><a href="#">Quartz Belt Watch</a></h4>
+                                    <p class="card-product__price">C$ 150.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Fin productos -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin tienda-->
+    
+  <!--================================== MODAL CONTACTENOS =====================================-->
+  <div class="modal fade" id="modalContacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contáctanos</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <div class="contactenos container">
+            <div class="row align-items-center">
+
+                <div class="col-12 col-md-10 offset-md-1 mb-3">
+                <div class="pt-3">
+                    <form>
+                    <div class="form-row">
+                        <div class="form-group col-12 col-md-6">
+                        <input type="text" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="form-group col-12 col-md-6">
+                        <input type="text" class="form-control" placeholder="Apellido">
+                        </div>
+                        <div class="form-group col-12">
+                        <input type="text" class="form-control" placeholder="Telefono / Celular">
+                        </div>
+                        <div class="form-group col-12">
+                        <input type="text" class="form-control" placeholder="Correo electronico">
+                        </div>
+                        <div class="form-group col-12">
+                        <textarea id="area_mensaje" type="text" class="form-control form-control-lg"
+                            placeholder="Escribe tu mensaje"></textarea>
+                        </div>
+                        <div class="col-12 text-center">
+                        <button class="btn btn-primary">Enviar</button>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+                </div>
+
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    
+    <!-- ================================================================================================= -->
+    <!-- Footer -->
+    <div id="footer">
+        <div class="container pt-5 text-center text-md-left">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <!--<h3 data-toggle="collapse" data-target="#coll" aria-expanded="false" aria-controls="collapseEx">Contáctenos</h3>-->
+                    <h3 class="d-none d-md-block">Contáctenos</h3>
+                        <!--<div class="collapse" id="coll">-->
+                        <div id="contenido" class="d-none d-md-block" href="#">
+                            <br>
+                            <p>+505 6884-0470</p>
+                            <p>workingplace1@yahoo.com</p>
+                            <p>Ubicación: Rotonda Bello Horizonte frente a entrada principal supermercado La Union. Bello Horizonte. Modulo 9.</p>
+                        </div>
+                        <!--</div>-->
+                </div>
+
+                <div class="col-md-4">
+                    <h3 class="d-none d-md-block">Información</h3>
+                    <div id="contenido" class="d-md-block">
+                        <br>
+                        <a id="info" href="../html/preguntas_frecuentes.html">Preguntas frecuentes</a>
+                        <br><br class="d-md-none"><hr class="d-none d-md-block">
+                        <a id="info" href="../html/politicas.html">Politica de privacidad</a>
+                        <br><br class="d-md-none"><hr class="d-none d-md-block">
+                        <a id="info" href="../html/terminos_condiciones.html">Términos y condiciones</a>
+                        <br><br>
+                    </div>
+                </div>
+
+                <div class="col col-md-4">
+                    <h3 class="d-none d-md-block">Nuestras redes</h3>
+                    <div class="row">
+                        <div class="col-2 offset-3 offset-md-0 col-md-12  pt-3">
+                            <a id="redes" class="icon-facebook" href="https://www.facebook.com/workingplacenicaragua" target="_blank"></a> <span class="d-none d-md-inline-block">&nbsp;&nbsp; Facebook</span>
+                        </div>
+
+                        <div class="col-2 col-md-12  pt-3">
+                            <a id="redes" class="icon-instagram" href="#"></a> <span class="d-none d-md-inline-block">&nbsp;&nbsp; Instagram</span>
+                        </div>
+
+                        <div class="col-2 col-md-12  pt-3">
+                            <a id="redes" class="icon-twitter" href="#"></a> <span class="d-none d-md-inline-block">&nbsp;&nbsp; Twitter</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="reservado" class="row">
+                <div class="col-12">
+                    <hr>
+                    <p>Working Place. &#169 Todos los derechos reservados. 2021</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin del footer -->
+
+    <!--==============================================================================================-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!--JS propio-->
+    <script src="../js/JS.js"></script>
+    <script src="../js/main.js"></script>
+
+    <!--Libreria de animaciones-->
+    <script src="../js/aos.js"></script>
+
+    <!--Animacion de scroll-->
+    <script src="../js/smooth-scroll.min.js"></script>
+
+    <!--JS de MDBootstrap-->
+    <script src="../js/jquery.min.js" type="text/javascript"></script>
+    <script src="../js/mdb.min.js" type="text/javascript"></script>
+
+    <script>
+        C$ ('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            dots: false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+            }
+        })
+
+        AOS.init({
+            duration: 800,
+            ease: 'ease-in-out-sine'
+        });
+
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 900,
+            speedAsDuration: true
+        });
+    </script>
+
+    
+    <!--<script>
+    C$ (document).ready(function() { 
+        C$ ('.itemNav').click(function(){
+            var C$ target = C$ ('.navbar-collapse');
+            if(C$ target.hasClass('in')){
+                C$ target.removeClass('in').height(0).css('overflow','hidden');                           
+            }
+        });			
+    });
+    </script>-->
+
+    </body>
+</html>
